@@ -1,0 +1,41 @@
+:root{
+    --navbar-color: #4a4e83;
+    --rowTwo-background: #7E8096;
+    --rowTwo-textColor: #080C47;
+    --rowOne-background: #A7A9C7;
+    --rowOne-textColor: #3C3D47;
+
+}
+body{
+    font: 20px Arial, sans-serif;
+    background-color: #000000;
+}
+footer{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: bold;
+}
+.navbar{
+    background-color:var(--navbar-color);
+}
+
+.rowOne{
+    background-color: var(--rowOne-background);
+    color: var(--rowOne-textColor);
+}
+
+.rowTwo{
+    background-color: var(--rowTwo-background);
+    color: var(--rowTwo-textColor);
+}
+
+.margin-h6{
+    padding-top: 10px;
+}
+
+.margin{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
